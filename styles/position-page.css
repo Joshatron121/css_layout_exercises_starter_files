@@ -28,7 +28,33 @@ nav > img {
 	border: 1px solid black;
 }
 
-div.square {
-	height: 600px;
-	width: 300px;
+.square {
+	position: relative;
+	width: 600px;
+	height: 300px;
+	margin: 0 auto;
+	border: 10px green dotted;
+	top: 200px;
+}
+
+.dog, .cat {
+	height: 200px;
+	width: 200px;
+}
+
+.dog {
+	position: absolute;
+	left: 80%;
+	top: 60%;
+}
+
+.cat {
+	position: absolute;
+	left: -15%;
+	top: -50%;
+}
+
+body {
+	background-image: url("images/spacecat.png");
+	background-size: contain;
 }
