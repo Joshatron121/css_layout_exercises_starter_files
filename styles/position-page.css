@@ -55,6 +55,11 @@ nav > img {
 }
 
 body {
-	background-image: url("images/spacecat.png");
-	background-size: contain;
+	margin: 0;
+	background: url("../images/outerspace_landscape.jpeg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}	
 }
