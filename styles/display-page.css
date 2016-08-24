@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 main {
 	font-size: 0;
 	width: 800px;
